@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-title>Designship</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#efefef">
+      <mj-column width="100%">
+        <mj-image href="https://recast.ai?ref=newsletter" src="https://www.designship.sk/img/logo-variant.svg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="45%">
+        <mj-text align="center" font-weight="500" padding="0px" font-size="18px">Congratulations!</mj-text>
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef" padding-top="30px">
+      <mj-column width="100%">
+        <mj-text>
+          <p>Hi {{username}}.</p>
+          <p>
+          Your assignment won
+          at the project: <b>{{title}}</b><br>
+          Please move forward through the link below and
+          follow the instructions. You may have to speak with the
+          client along the way, to make sure the design 
+          will be okay.
+          <p><a href="{{url}}">{{url}}</a></p>
+          </p>
+          <p>
+          At the end of the conversation you should be
+          able to upload the files. Don't worry, at this point
+          we will send emails when you need something to do.
+          </p>
+          <p>
+          Once again, congrats! You did something great,
+          and you will be rewarded soon. Cheers :)
+          </p>
+          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="11%">
+        <mj-image padding-right="0px" padding-left="25px" align="left" width="70px" src="https://s3.eu-central-1.amazonaws.com/designship/mailAssets/avatar/greg.png"></mj-image>
+      </mj-column>
+      <mj-column width="89%">
+        <mj-text padding="0 25px">
+          <p style="color:#BDBDBD; line-height: 9px"> Greg - <a href="https://designship.sk/" style="color: #3498DB;">
+              Designship
+            </a> team </p>
+          <p style="font-style: italic; color:#BDBDBD; line-height: 9px"> The support guy </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,95 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hi {{username}}!</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#efefef">
+      <mj-column width="100%">
+        <mj-image href="https://recast.ai?ref=newsletter" src="https://www.designship.sk/img/logo-variant.svg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="45%">
+        <mj-text align="center" font-weight="500" padding="0px" font-size="18px">Here is your receipt</mj-text>
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+        <mj-divider border-width="2px" border-color="#616161" width="45%"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef" padding-top="30px">
+      <mj-column width="100%">
+        <mj-text>
+          <p>Hi {{username}}!</p>
+          <p>You've created and activated your project.<br>
+            Below you will find some useful informations about your project.<br>
+            <b>You will receive additional emails, when somebody opens your project <br>
+            or something important happens!</b>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="11%">
+        <mj-image padding-right="0px" padding-left="25px" align="left" width="70px" href="https://twitter.com/MrJustaine" src="https://www.designship.sk/avatar/15421126685beac59c79b493.63592043.png"></mj-image>
+      </mj-column>
+      <mj-column width="89%">
+        <mj-text padding="0 25px">
+          <p style="color:#BDBDBD; line-height: 9px"> Greg - <a href="https://designship.sk/" style="color: #3498DB;">
+              Designship
+            </a> team </p>
+          <p style="font-style: italic; color:#BDBDBD; line-height: 9px"> Your light in the storm </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column>
+        <mj-text padding-bottom="0px">
+          <h3 style="font-weight: bold"> <a href="https://chatbotsmagazine.com/nlp-and-the-coming-content-explosion-5ad45017f36f#.rr1g031tl" style="color: #3498DB; text-decoration: none;">
+            NLP and the coming content explosion
+            </a> </h3>
+        </mj-text>
+        <mj-image width="600px" padding-top="0" href="https://chatbotsmagazine.com/nlp-and-the-coming-content-explosion-5ad45017f36f#.rr1g031tl" src="https://cdn.recast.ai/newsletter/188.png"></mj-image>
+        <mj-text>
+          <p style="font-size: 14px;"> Natural language powered interfaces are taking the world by storm, and we can't help but wonder how they'll change the way we deliver, read and share content. </p>
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efefef">
+      <mj-column width="50%">
+        <mj-image align="left" width="150px" href="https://designship.sk" src="https://designship.sk/img/logo-variant.svg"></mj-image>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-table>
+          <tr style="list-style: none;line-height:1">
+            <td> <a href="https://twitter.com/RecastAI">
+                  <img width="50" src="https://cdn.recast.ai/newsletter/twitter.png" />
+                </a> </td>
+            <td> <a href="https://www.facebook.com/recastAI">
+                  <img width="50" src="https://cdn.recast.ai/newsletter/facebook.png" />
+                </a> </td>
+            <td> <a href="https://medium.com/@RecastAI">
+                  <img width="50" src="https://cdn.recast.ai/newsletter/medium.png" />
+                </a> </td>
+            <td> <a href="https://www.youtube.com/channel/UCA0UZlR8crpgwFiVaSTbVWw">
+                  <img width="50" src="https://cdn.recast.ai/newsletter/youtube.png" />
+                </a> </td>
+            <td> <a href="https://plus.google.com/u/0/+RecastAi">
+                  <img width="50" src="https://cdn.recast.ai/newsletter/google%2B.png" />
+                </a> </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
